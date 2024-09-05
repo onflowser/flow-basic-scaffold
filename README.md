@@ -63,18 +63,9 @@ You can then import the `Foo` contract in `Bar` contract the same way as any oth
 import "Foo"
 ```
 
-**Included Imports**
+**Using external dependencies**
 
-You can already import certain common contracts we included for you, just make sure you started your emulator with the `--contracts` flag so those contracts are really deployed. The list of contracts you can import out of the box is:
-- NonFungibleToken `import "NonFungibleToken"`
-- FlowToken `import "FlowToken"`
-- FungibleToken `import "FungibleToken"`
-- FUSD `import "FUSD"`
-- MetadataViews `import "MetadataViews"`
-- ExampleNFT `import "ExampleNFT"`
-- NFTStorefrontV2 `import "NFTStorefrontV2"`
-- NFTStorefront `import "NFTStorefront"`
-
+If you wanna use external contract dependencies (like NonFungibleToken, FlowToken, FungibleToken,..) you can install them using Cadence dependency manager: https://developers.flow.com/tools/flow-cli/dependency-manager
 
 ### Further Reading
 
