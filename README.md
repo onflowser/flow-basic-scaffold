@@ -65,7 +65,7 @@ import "Foo"
 
 **Using external dependencies**
 
-If you wanna use external contract dependencies (like NonFungibleToken, FlowToken, FungibleToken,..) you can install them using Cadence dependency manager: https://developers.flow.com/tools/flow-cli/dependency-manager
+If you want to use external contract dependencies (like NonFungibleToken, FlowToken, FungibleToken.) you can install them using the [Cadence dependency manager](https://developers.flow.com/tools/flow-cli/dependency-manager).
 
 Use [ContractBrowser](https://contractbrowser.com/) to explore available 3rd party contracts in the Flow ecosystem.
 
